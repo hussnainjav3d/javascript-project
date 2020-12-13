@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+button {
+    background-color: rebeccapurple;
+    color: white;
+    padding: 1rem 1.8rem;
+    border-radius: 0.5rem;
+    border: none;
+    margin: 1rem;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+    transition: transform 0.1s linear;
+}
+
+button:focus {
+    outline: none;
+}
+
+button:active {
+    box-shadow: 0;
+    transform: translate(2px, 2px) scale(1.1);
+}
+
+button:hover {
+    /* opacity: 0.8; */
+    cursor: pointer;
+}
+
+#color-name {
+    margin: 1rem;
+    background-color: #eee;
+    padding: 2rem;
+    border-radius: 1rem;
+    text-transform: uppercase;
+}
