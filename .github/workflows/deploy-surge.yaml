@@ -29,4 +29,4 @@ jobs:
       - name: Install Surge
         run: npm install -g surge
       - name: Run Surge
-        run: surge ./ hussnain-javascript-practice.surge.sh --token ${{secrets.SURGE_TOKEN}}
+        run: surge ./ http://hussnainjaved.site --token ${{secrets.SURGE_TOKEN}}
